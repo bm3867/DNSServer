@@ -19,7 +19,7 @@ from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 import base64
 import ast
 
-salt = 'Tandon'.encode('utf-8') # Remember it should be a byte-object
+salt = 'Tandon' # Remember it should be a byte-object
 password = 'bm3867@nyu.edu'
 input_string = 'AlwaysWatching'
 
